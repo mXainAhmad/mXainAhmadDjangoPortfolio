@@ -1,0 +1,38 @@
+{% extends "basic.html" %}
+{% load static %}
+
+{% block title %}
+About Me
+{% endblock title %}
+
+{% block body2 %}
+<!-- experience section start -->
+<section class="services" id="teams">
+    <div class="max-width">
+        <h2 class="title">My experience</h2>
+        <div class="serv-content">
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="text">Social Media Manager <br/>03/2022 - 12/2022</div>
+                    <p>Envision Digital <br/> Lahore, Pakistan</p>
+                </div>
+            </div>
+<div class="card">
+                <div class="box">
+                     <a href="{% static 'assets/images/myCv.pdf' %}" target="_blank">Read more</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    <div class="text">UI / UX Designer <br/>01/2023 - 02/2024</div>
+                    <p>Tuqborneh <br/>Lahore, Pakistan</p>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+{% endblock body2 %}

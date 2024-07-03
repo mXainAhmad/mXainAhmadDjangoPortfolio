@@ -1,0 +1,25 @@
+{% extends "basic.html" %}
+{% load static %}
+
+{% block title %}
+About
+{% endblock title %}
+
+{% block body2 %}
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="{% static 'assets/images/profile-4.jpg' %}" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Xain and I'm a <span class="typing"></span></div>
+                    <p>As a dedicated professional, I bring a wealth of passion for excellence to every task I undertake. My commitment to continuous learning and adaptability allows me to thrive in dynamic environments, where I am able to quickly grasp new concepts and tackle challenges head-on. Known for my strong work ethic and attention to detail, I consistently deliver results that exceed expectations. I pride myself on my ability to effectively communicate and collaborate with colleagues, stakeholders, and clients, fostering positive relationships and driving successful outcomes. Driven by a desire for professional growth and achievement, I am eager to leverage my talents and contribute to the success of any team or organization.</p>
+                    <a href="{% static 'assets/images/myCv.pdf' %}" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock body2 %}
